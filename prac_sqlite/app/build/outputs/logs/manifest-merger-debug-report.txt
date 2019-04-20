@@ -1,0 +1,160 @@
+-- Merging decision tree log ---
+manifest
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3e97cc7296e299a64b406dd5a2c5f256\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\4f915ba660e097b52cc1b5aec5a8d0c5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\869640b4a5f70a3699ebe00eaee6407a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\59f57def61db4e7f9c313a8de76bf378\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f924be3f48b9e886d7f1d81701e9a6cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\255b3d048419f34813467d6a7ef92c04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\d0b6a87f31c64f5188fa901c46705821\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\428ee27de00eae4a3671bea003d1e929\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\19056cafcd9f199c87aa5b3ee1dcd6e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\db887d3fb6bb249848993207882e6573\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\de101057f7d5a0c7af33f5dc2ae7c1cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f6e72b69abe4c1a281c25df60126f91e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\01d53ce491b4c38354051d826e9e783e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\6086dbce6989792339bc7cfe51680899\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\915046a11dce0ca53c2ebc198b431f10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\493b64d4bd5c580aa2a6ab1aa2034246\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3452af13a23c6bd6bfa9a82e27c1b6bc\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\08194fb2d56edab97f3c838ed06ed007\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\66ae7d24f6417bd5a1d4683acbf18f51\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\ca8d33066125f2c006b35d19f40aeab8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\6a3f4effe27ad570dd0c5a8644905660\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\15c2e290eb967002c5792bb2b4ccc4d5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\addeb0f2269f1ab3f50726bf6ff0ec3d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\cc03797c3983dd5a6bc6b9d9fb5b85c4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f1c20803c34d56e856a756584edecdf1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\9ba1dd61c45208903e07879361ea5a37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\0421f0f2b464da9b2bca4e5c81b7630f\AndroidManifest.xml:17:1-22:12
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:4:5-42
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+	xmlns:dist
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:3:5-61
+	android:versionCode
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:2:11-69
+dist:module
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:6:5-40
+	dist:instant
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:6:18-37
+application
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:8:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\4f915ba660e097b52cc1b5aec5a8d0c5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\4f915ba660e097b52cc1b5aec5a8d0c5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\493b64d4bd5c580aa2a6ab1aa2034246\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\493b64d4bd5c580aa2a6ab1aa2034246\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3452af13a23c6bd6bfa9a82e27c1b6bc\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3452af13a23c6bd6bfa9a82e27c1b6bc\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\493b64d4bd5c580aa2a6ab1aa2034246\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.test0.pwing.prac_sqlite.MainActivity
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3e97cc7296e299a64b406dd5a2c5f256\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3e97cc7296e299a64b406dd5a2c5f256\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\4f915ba660e097b52cc1b5aec5a8d0c5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\4f915ba660e097b52cc1b5aec5a8d0c5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\869640b4a5f70a3699ebe00eaee6407a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\869640b4a5f70a3699ebe00eaee6407a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\59f57def61db4e7f9c313a8de76bf378\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\59f57def61db4e7f9c313a8de76bf378\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f924be3f48b9e886d7f1d81701e9a6cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f924be3f48b9e886d7f1d81701e9a6cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\255b3d048419f34813467d6a7ef92c04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\255b3d048419f34813467d6a7ef92c04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\d0b6a87f31c64f5188fa901c46705821\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\d0b6a87f31c64f5188fa901c46705821\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\428ee27de00eae4a3671bea003d1e929\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\428ee27de00eae4a3671bea003d1e929\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\19056cafcd9f199c87aa5b3ee1dcd6e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\19056cafcd9f199c87aa5b3ee1dcd6e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\db887d3fb6bb249848993207882e6573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\db887d3fb6bb249848993207882e6573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\de101057f7d5a0c7af33f5dc2ae7c1cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\de101057f7d5a0c7af33f5dc2ae7c1cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f6e72b69abe4c1a281c25df60126f91e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f6e72b69abe4c1a281c25df60126f91e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\01d53ce491b4c38354051d826e9e783e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\01d53ce491b4c38354051d826e9e783e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\6086dbce6989792339bc7cfe51680899\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\6086dbce6989792339bc7cfe51680899\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\915046a11dce0ca53c2ebc198b431f10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\915046a11dce0ca53c2ebc198b431f10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\493b64d4bd5c580aa2a6ab1aa2034246\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\493b64d4bd5c580aa2a6ab1aa2034246\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3452af13a23c6bd6bfa9a82e27c1b6bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\3452af13a23c6bd6bfa9a82e27c1b6bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\08194fb2d56edab97f3c838ed06ed007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\08194fb2d56edab97f3c838ed06ed007\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\66ae7d24f6417bd5a1d4683acbf18f51\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\66ae7d24f6417bd5a1d4683acbf18f51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\ca8d33066125f2c006b35d19f40aeab8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\ca8d33066125f2c006b35d19f40aeab8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\6a3f4effe27ad570dd0c5a8644905660\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\6a3f4effe27ad570dd0c5a8644905660\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\15c2e290eb967002c5792bb2b4ccc4d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\15c2e290eb967002c5792bb2b4ccc4d5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\addeb0f2269f1ab3f50726bf6ff0ec3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\addeb0f2269f1ab3f50726bf6ff0ec3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\cc03797c3983dd5a6bc6b9d9fb5b85c4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\cc03797c3983dd5a6bc6b9d9fb5b85c4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f1c20803c34d56e856a756584edecdf1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\f1c20803c34d56e856a756584edecdf1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\9ba1dd61c45208903e07879361ea5a37\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\9ba1dd61c45208903e07879361ea5a37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\0421f0f2b464da9b2bca4e5c81b7630f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SskAP\.gradle\caches\transforms-2\files-2.1\0421f0f2b464da9b2bca4e5c81b7630f\AndroidManifest.xml:20:5-44
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		ADDED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Download\Compressed\prac_sqlite\app\src\main\AndroidManifest.xml
