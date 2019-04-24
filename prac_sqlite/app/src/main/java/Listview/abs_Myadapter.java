@@ -41,20 +41,24 @@ public abstract class abs_Myadapter extends ArrayAdapter {
 //            img.setImageResource(block.getImage);
 
         TextView tvName = (TextView) view.findViewById(R.id.NameTextView);
-        tvName.setText(block.getStation());
+        tvName.setText(block.getLocation());
 
         TextView tvDesc = (TextView) view.findViewById(R.id.DescTextView);
-        String location = block.getLocation();
-        tvDesc.setText(location);
+
+
+        //rl = "https://google.com/search?q=" + block.getLocation();
+
+        final String URL = "https://google.com/search?q=" + block.getLocation();
 
         block.setButton((Button) view.findViewById(R.id.googleBV));
-        url = "https://google.com/search?q=" + location;
         block.getButton().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                url = URL;
                 openWeb();
             }
         });
+        tvDesc.setText(block.getDescript());
 
 
         return view;

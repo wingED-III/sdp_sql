@@ -1,14 +1,10 @@
 package Listview;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
-import android.view.View;
 import android.widget.Button;
 
-public class MyBlock  {
-    private String station;
+public class MyBlock {
     private String location;
+    private String descript;
     private Button button;
 
     public Button getButton() {
@@ -20,17 +16,9 @@ public class MyBlock  {
 
     }
 
-    public MyBlock(String name, String location) {
-        this.station = name;
+    public MyBlock(String location, String descript) {
         this.location = location;
-    }
-
-    public String getStation() {
-        return station;
-    }
-
-    public void setStation(String name) {
-        this.station = name;
+        this.descript = descript;
     }
 
     public String getLocation() {
@@ -41,16 +29,12 @@ public class MyBlock  {
         this.location = location;
     }
 
-    public void onClick(Activity activity){
-        final Activity act = activity;
-        final String url = "https://google.com/search?q="+this.station;
-        this.button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(url));
-                act.startActivity(intent);
-            }
-        });
+    public String getDescript() {
+        return descript;
     }
+
+    public void setDescript(String descript) {
+        this.descript = descript;
+    }
+
 }

@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -28,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listView);
         ArrayList<MyBlock> blockList = new ArrayList<>();
 
+        class Myadapter extends abs_Myadapter {
+            Myadapter(Context context, int layout, ArrayList<MyBlock> myBlockArrayList){
+                super(context, layout, myBlockArrayList);
+            }
+            @Override
+            public void openWeb() {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(getUrl()));
+                startActivity(intent);
+            }
+        };
 
         try {
             myDB.createDB();
@@ -44,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor data = myDB.getTable();
         data.moveToFirst();
         while (data.moveToNext()) {
-            final MyBlock myBlock = new MyBlock(data.getString(2), data.getString(3));
+            final MyBlock myBlock = new MyBlock(data.getString(data.getColumnIndex("field4")), data.getString(data.getColumnIndex("field5")));
             blockList.add(myBlock);
         }
 
@@ -52,21 +64,18 @@ public class MainActivity extends AppCompatActivity {
 //            blockList.add(new MyBlock("insert title text here", "insert text here"));
 //        }
 
-        class Myadapter extends abs_Myadapter {
-            Myadapter(Context context, int layout, ArrayList<MyBlock> myBlockArrayList){
-                super(context, layout, myBlockArrayList);
-            }
-            @Override
-            public void openWeb() {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(getUrl()));
-                startActivity(intent);
-            }
-        };
 
-        final Myadapter myadapter = new Myadapter(getBaseContext(), R.layout.mylistview_layout, blockList);
+        Myadapter myadapter = new Myadapter(getBaseContext(), R.layout.mylistview_layout, blockList);
 
         listView.setAdapter(myadapter);
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Toast.makeText(MainActivity.this,"On Start",Toast.LENGTH_SHORT);
 
     }
 }
