@@ -15,19 +15,21 @@ import java.io.OutputStream;
 
 public class SqliteHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "appDB";
-    private static final String TABLE_NAME = "MRT_TABLE";
-    private static String DB_PATH;
     private static final int VERSION = 1;
-    private static Context CONTEXT;
+    private static String DB_PATH;
     private static SQLiteDatabase DATABASE;
     private static String TOTAL_PATH;
+    private  String TABLE_NAME = "MRT_TABLE";
+    private  Context CONTEXT;
 
-    public SqliteHelper(Context context) {
+
+    public SqliteHelper(Context context,String table_name) {
         super(context, DB_NAME, null, VERSION);
         this.CONTEXT = context;
+        this.TABLE_NAME =table_name;
         //this.DB_PATH = this.CONTEXT.getDatabasePath(DB_NAME).toString();
         this.DB_PATH = "/data/data/" + context.getPackageName() + "/databases/";
-        Log.d("DB_Path", this.DB_PATH);
+        //Log.d("DB_Path", this.DB_PATH);
         this.TOTAL_PATH = this.DB_PATH+this.DB_NAME;
     }
 
@@ -45,6 +47,7 @@ public class SqliteHelper extends SQLiteOpenHelper {
         SQLiteDatabase checkDB = null;
         try {
             checkDB = SQLiteDatabase.openDatabase(this.TOTAL_PATH, null, SQLiteDatabase.OPEN_READONLY);
+            Log.d("Report","Database is already exist!");
         } catch (SQLiteException e) {
             Log.d("myTag", e.getMessage());
         }
@@ -95,7 +98,7 @@ public class SqliteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
-        if (newVersion > oldVersion) {
+        if (newVersion >= oldVersion) {
             try {
                 this.copyDB();
             } catch (IOException e) {
@@ -110,22 +113,22 @@ public class SqliteHelper extends SQLiteOpenHelper {
     }
 
     public Cursor getTable() {
-        Log.d("getTable", "executed");
-        String x = "__";
-        if (!checkDataBase()) {
-            x = x + "NOOOOO";
-        } else {
-            x = x + "OKKKKK";
-        }
-        Log.d("isDbNull", x);
+//        Log.d("getTable", "executed");
+//        String x = "__";
+//        if (!checkDataBase()) {
+//            x = x + "NOOOOO";
+//        } else {
+//            x = x + "OKKKKK";
+//        }
+//        Log.d("isDbNull", x);
 
         return this.DATABASE.query(this.TABLE_NAME, null, null, null, null, null, null);
 
     }
 //
-//    public Cursor getList() {   //bug
-//        return this.DATABASE.rawQuery("SELECT * FROM " + this.TABLE_NAME, null);
-//    }
+    public Cursor getList() {   //bug
+        return this.DATABASE.rawQuery("SELECT * FROM " + this.TABLE_NAME, null);
+    }
 
 
 }
